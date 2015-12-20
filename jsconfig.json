@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "target": "ES6",
+        "module": "system",
+        "outDir": "./build/",
+         "suppressImplicitAnyIndexErrors": true,
+        "noImplicitAny": true,
+        "sourceMap": true,
+        "declaration": true
+    },
+    "files": [
+        "./frzr/el.ts",
+        "./frzr/utils.ts",
+        "./frzr/observable.ts",
+        "./frzr/extendableobservable.ts",
+        "./frzr/view.ts",
+        "./frzr/viewlist.ts"
+    ]
+}
